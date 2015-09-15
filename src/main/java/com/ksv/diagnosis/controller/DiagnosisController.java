@@ -41,7 +41,7 @@ public class DiagnosisController {
 	@RequestMapping(value="/addupdateclientdetails/" , method = RequestMethod.POST)
 	public @ResponseBody Response addUpdateClientDetails(@RequestBody DiagnosisVO diagnosisVo){
 		Response res = new Response();
-		
+		System.out.println("hello");
 		try {
 			res.setSuccess(true);
 			diagnosisService.addUpdateClientDetails(diagnosisVo);
