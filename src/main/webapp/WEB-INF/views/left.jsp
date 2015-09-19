@@ -18,7 +18,7 @@
                 <div class="media logged-user">
                     <img alt="" src="resources/images/user-avatar.png" class="media-object">
                     <div class="media-body">
-                        <h4><a href="#">John Doe</a></h4>
+                        <h4><a href="#">Vinoth.K.S</a></h4>
                         <span>"Hello There..."</span>
                     </div>
                 </div>
@@ -33,34 +33,73 @@
 
             <!--sidebar nav start-->
             <ul class="nav nav-pills nav-stacked custom-nav">
-                <li><a href="index.html"><i class="fa fa-home"></i> <span>Dashboard</span></a></li>
+                <li><a href="#"><i class="fa fa-home"></i> <span>Dashboard</span></a></li>
 
-                <li class="menu-list"><a href="#"><i class="fa fa-th-list"></i> <span>Data Tables</span></a>
+                <li class="menu-list"><a href="#"><i class="fa fa-wheelchair"></i> <span>Client</span></a>
                     <ul class="sub-menu-list">
-                        <li><a href="basic_table.html"> Basic Table</a></li>
-                        <li><a href="dynamic_table.html"> Advanced Table</a></li>
-                        <li><a href="responsive_table.html"> Responsive Table</a></li>
-                        <li><a href="editable_table.html"> Edit Table</a></li>
+                        <li><a href="#"> Registration</a></li>
+                        <li><a href="#"> Appointment</a></li>
+                        <li><a href="#"> Client Pictures</a></li>
+                        <li><a href="#"> Client Documents</a></li>
                     </ul>
                 </li>
 
-                <li class="menu-list"><a href=""><i class="fa fa-file-text"></i> <span>Extra Pages</span></a>
+                <li class="menu-list"><a href=""><i class="fa fa-stethoscope"></i> <span>Diagnosis</span></a>
                     <ul class="sub-menu-list">
-                        <li><a href="profile.html"> Profile</a></li>
-                        <li><a href="invoice.html"> Invoice</a></li>
-                        <li><a href="pricing_table.html"> Pricing Table</a></li>
-                        <li><a href="timeline.html"> Timeline</a></li>
-                        <li><a href="blog_list.html"> Blog List</a></li>
-                        <li><a href="blog_details.html"> Blog Details</a></li>
-                        <li><a href="directory.html"> Directory </a></li>
-                        <li><a href="chat.html"> Chat </a></li>
-                        <li><a href="404.html"> 404 Error</a></li>
-                        <li><a href="500.html"> 500 Error</a></li>
-                        <li><a href="registration.html"> Registration Page</a></li>
-                        <li><a href="lock_screen.html"> Lockscreen </a></li>
+                        <li><a href="#"> ABCD Forms</a></li>
+                        <li><a href="#"> Chart</a></li>
                     </ul>
                 </li>
-                <li><a href="login.html"><i class="fa fa-sign-in"></i> <span>Login Page</span></a></li>
+                
+                <li class="menu-list"><a href=""><i class="fa fa-envelope"></i> <span>Mail</span></a>
+                    <ul class="sub-menu-list">
+                        <li><a href="#"> Inbox </a></li>
+                        <li><a href="#"> Compose </a></li>
+                        <li><a href="#"> Sent </a></li>
+                        <li><a href="#"> Outbox </a></li>
+                    </ul>
+                </li>
+                
+               <li class="menu-list"><a href=""><i class="fa fa-mobile"></i> <span>SMS</span></a>
+                    <ul class="sub-menu-list">
+                        <li><a href="#"> Send Clients </a></li>
+                        <li><a href="#"> Send Admins </a></li>
+                        <li><a href="#"> Promotion </a></li>
+                        <li><a href="#"> Remainder </a></li>
+                    </ul>
+                </li>
+                
+                 <li class="menu-list"><a href=""><i class="fa fa-calendar"></i> <span>Reminder</span></a>
+                    <ul class="sub-menu-list">
+                    	<li><a href="#"> Create/Modify Remainder </a></li>
+                        <li><a href="#"> Payment Remainder </a></li>
+                        <li><a href="#"> View Remainder </a></li>
+                        <li><a href="#"> Chart Remainder </a></li>
+                    </ul>
+                </li>
+                
+                <li class="menu-list"><a href=""><i class="fa fa-bullseye"></i> <span>Predictive Reports</span></a>
+                    <ul class="sub-menu-list">
+                        <li><a href="#"> Intake </a></li>
+                        <li><a href="#"> Weight </a></li>
+                    </ul>
+                </li>
+                
+                 <li class="menu-list"><a href=""><i class="fa fa-bar-chart-o"></i> <span>General Reports</span></a>
+                    <ul class="sub-menu-list">
+                        <li><a href="#"> Intake </a></li>
+                        <li><a href="#"> Weight </a></li>
+                    </ul>
+                </li>
+                
+                <li class="menu-list"><a href=""><i class="fa fa-headphones"></i> <span>Live Consultation</span></a>
+                    <ul class="sub-menu-list">
+                        <li><a href="#"> Text Chat </a></li>
+                        <li><a href="#"> Video Chat </a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="login.html"><i class="fa fa-credit-card"></i> <span>Payment</span></a></li>
 
             </ul>
             <!--sidebar nav end-->

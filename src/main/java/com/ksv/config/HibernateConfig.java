@@ -36,7 +36,7 @@ public class HibernateConfig {
     public LocalSessionFactoryBean sessionFactory() {
         LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(dataSource());
-        sessionFactory.setPackagesToScan(new String[] { "com.ksv.diagnosis.dao.model" });
+        sessionFactory.setPackagesToScan(new String[] { "com.ksv.diagnosis.dao.model","com.ksv.client.dao.model" });
         sessionFactory.setHibernateProperties(hibernateProperties());
         return sessionFactory;
      }

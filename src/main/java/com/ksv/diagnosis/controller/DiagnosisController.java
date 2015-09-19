@@ -1,11 +1,10 @@
 package com.ksv.diagnosis.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.ksv.diagnosis.controller.vo.DiagnosisVO;
@@ -13,7 +12,7 @@ import com.ksv.diagnosis.service.DiagnosisService;
 import com.ksv.response.Response;
 
  
-@Controller
+@RestController
 @RequestMapping("/")
 public class DiagnosisController {
  
@@ -23,25 +22,13 @@ public class DiagnosisController {
 		return mav;
 	}
 	
-	@RequestMapping(value="/forms" , method = RequestMethod.GET)
-	public ModelAndView forms(){
-		ModelAndView mav = new ModelAndView("formLayouts");
-		return mav;
-	}
-	
-	@RequestMapping(value="/left" , method = RequestMethod.GET)
-	public ModelAndView leftHealth(){
-		ModelAndView mav = new ModelAndView("left");
-		return mav;
-	}
-
 	@Autowired
 	private DiagnosisService diagnosisService;
 	
 	@RequestMapping(value="/addupdateclientdetails/" , method = RequestMethod.POST)
-	public @ResponseBody Response addUpdateClientDetails(@RequestBody DiagnosisVO diagnosisVo){
+	public Response addUpdateClientDetails(@RequestBody DiagnosisVO diagnosisVo){
 		Response res = new Response();
-		System.out.println("hello");
+		
 		try {
 			res.setSuccess(true);
 			diagnosisService.addUpdateClientDetails(diagnosisVo);

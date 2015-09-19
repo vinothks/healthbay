@@ -178,8 +178,8 @@
                 </li>
                 <li>
                     <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                        <img src="resources/images/user-avatar.png" alt="" />
-                        John Doe
+                        <img src="resources/images/vinoth-avatar4.png" alt="" />
+                        Vinoth.K.S
                         <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-usermenu pull-right">

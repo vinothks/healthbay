@@ -40,7 +40,15 @@
 
         <!-- page heading start-->
         <div class="page-heading">
-
+            <h3>
+                 Registration
+            </h3>
+            <ul class="breadcrumb">
+                <li>
+                    <a href="#">Client</a>
+                </li>
+                <li class="active"> Registration </li>
+            </ul>
         </div>
         <!-- page heading end-->
 
