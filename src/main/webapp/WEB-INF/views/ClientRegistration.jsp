@@ -64,7 +64,7 @@
                     <div class="panel-body">
                         <form class="form-horizontal" role="form">
                             <div class="form-group">
-                                <label  class="col-lg-3 col-sm-3 control-label">Left Icon</label>
+                                <label  class="col-lg-3 col-sm-3 control-label">Name</label>
                                 <div class="col-lg-9">
                                     <div class="iconic-input">
                                         <input type="text" class="form-control">
@@ -72,26 +72,57 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label  class="col-lg-3 col-sm-3 control-label">Right Icon</label>
-                                <div class="col-lg-9">
+                                <label  class="col-lg-3 col-sm-3 control-label">DOB</label>
+                                <div class="col-lg-4">
+                                    <div class="iconic-input right">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                
+                                <label  class="col-lg-3 col-sm-3 control-label">AGE</label>
+                                <div class="col-lg-2">
                                     <div class="iconic-input right">
                                         <input type="text" class="form-control">
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label  class="col-lg-3 col-sm-3 control-label">Input with Loading</label>
+                                <label  class="col-lg-3 col-sm-3 control-label">Gender</label>
                                 <div class="col-lg-9">
-                                    <div class="iconic-input right">
-                                        <input type="text" class="form-control spinner">
-                                    </div>
+                                        <select class="form-control">
+				                            <option>Option 1</option>
+				                            <option>Option 2</option>
+				                            <option>Option 3</option>
+				                        </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">Blood Group</label>
+                                <div class="col-lg-9">
+                                     <select class="form-control">
+				                          <option>Option 1</option>
+				                          <option>Option 2</option>
+				                          <option>Option 3</option>
+				                     </select>
+                                </div>
+                            </div>
+                            
+                             <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">Marital Status</label>
+                                <div class="col-lg-9">
+                                     <select class="form-control">
+				                          <option>Option 1</option>
+				                          <option>Option 2</option>
+				                          <option>Option 3</option>
+				                     </select>
                                 </div>
                             </div>
 
                             <div class="form-group">
-                                <label class="col-sm-3 control-label col-lg-3">Button addons</label>
+                                <label class="col-sm-3 control-label col-lg-3">Occupation</label>
                                 <div class="col-lg-9">
-                                    <div class="input-group m-bot15">
+                                    <div class="input-group">
                                               <span class="input-group-btn">
                                                 <button type="button" class="btn btn-default"><i class="fa fa-search"></i></button>
                                               </span>
@@ -113,41 +144,37 @@
                     <div class="panel-body">
                         <form class="form-horizontal" role="form">
                             <div class="form-group">
-                                <label  class="col-lg-3 col-sm-3 control-label">Left Icon</label>
+                        		<label  class="col-lg-3 col-sm-3 control-label">Address</label>
+		                        <div class="col-lg-9">
+		                       		<input class="form-control m-bot15" type="text" placeholder="Address Line 1">
+		                            <input class="form-control m-bot15" type="text" placeholder="Address Line 2">
+		                            <input class="form-control" type="text" placeholder="Address Line 3">
+		                        </div>
+		                    </div>
+                            
+                            <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">Phone Number</label>
                                 <div class="col-lg-9">
-                                    <div class="iconic-input">
-                                        <i class="fa fa-home"></i>
-                                        <input type="text" class="form-control" placeholder="left icon">
+                                    <div class="iconic-input right">
+                                        <input type="text" class="form-control" placeholder="Phone Number">
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label  class="col-lg-3 col-sm-3 control-label">Right Icon</label>
+                                <label  class="col-lg-3 col-sm-3 control-label">Email Id</label>
                                 <div class="col-lg-9">
                                     <div class="iconic-input right">
-                                        <input type="text" class="form-control" placeholder="right icon">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label  class="col-lg-3 col-sm-3 control-label">Input with Loading</label>
-                                <div class="col-lg-9">
-                                    <div class="iconic-input right">
-                                        <input type="text" class="form-control spinner" placeholder="Something Processing">
+                                        <input type="text" class="form-control" placeholder="Email Id">
                                     </div>
                                 </div>
                             </div>
 
                             <div class="form-group">
-                                <label class="col-sm-3 control-label col-lg-3">Button addons</label>
-                                <div class="col-lg-9">
-                                    <div class="input-group m-bot15">
-                                              <span class="input-group-btn">
-                                                <button type="button" class="btn btn-default"><i class="fa fa-search"></i></button>
-                                              </span>
-                                        <input type="text" class="form-control">
+                                <label class="col-lg-3 col-sm-3 control-label">Em Contact No</label>
+                                 <div class="col-lg-9">
+                                    <div class="iconic-input right">
+                                        <input type="text" class="form-control" placeholder="Emergency Contact Number">
                                     </div>
-
                                 </div>
                             </div>
 

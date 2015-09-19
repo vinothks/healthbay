@@ -788,17 +788,17 @@
                             <input class="form-control m-bot15" type="text" placeholder="Default input">
                             <input class="form-control input-sm m-bot15" type="text" placeholder=".input-sm">
 
-                            <select class="form-control input-lg m-bot15">
+                            <select class="form-control input-lg">
                                 <option>Option 1</option>
                                 <option>Option 2</option>
                                 <option>Option 3</option>
                             </select>
-                            <select class="form-control m-bot15">
+                            <select class="form-control">
                                 <option>Option 1</option>
                                 <option>Option 2</option>
                                 <option>Option 3</option>
                             </select>
-                            <select class="form-control input-sm m-bot15">
+                            <select class="form-control">
                                 <option>Option 1</option>
                                 <option>Option 2</option>
                                 <option>Option 3</option>
