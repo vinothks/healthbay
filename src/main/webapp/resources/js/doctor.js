@@ -18,7 +18,7 @@ hbApp.controller("doctorController", function($scope,$http){
 	  $scope.submitRegForm = function(){
 			
 		  $scope.clientDetails = {id:1,name:'name'};
-			alert(JSON.stringify($scope.clientDetails));
+//			alert(JSON.stringify($scope.clientDetails));
 			
 			$http({
 				method : 'POST',
@@ -26,6 +26,7 @@ hbApp.controller("doctorController", function($scope,$http){
 				data : $scope.clientDetails,
 				headers: {'Content-Type' : 'application/json'}
 			}).success(function(response){
+				$scope.data = response.data;
 				alert(response.success);
 				if(response.success){
 					$scope.alert = {type:'alert-success',message:response.message};
