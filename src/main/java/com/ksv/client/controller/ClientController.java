@@ -22,6 +22,12 @@ public class ClientController {
 		return mav;
 	}
 	
+	@RequestMapping(value="/appointment" , method = RequestMethod.GET)
+	public ModelAndView appointment(){
+		ModelAndView mav = new ModelAndView("Appointment");
+		return mav;
+	}
+	
 	@Autowired
 	private ClientService clientService;
 	
